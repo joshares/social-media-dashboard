@@ -182,7 +182,7 @@ h2 {
     }
     h3 {
       /* text-align: ; */
-      font-size: 160%;
+      font-size: x-large;
     }
         section {
           display: grid;
@@ -210,7 +210,7 @@ h2 {
           /* margin-top: 100px; */
         }
         header p {
-          font-size: large;
+          font-size: medium;
         }
       
       
