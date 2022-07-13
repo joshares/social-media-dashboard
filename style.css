@@ -1,0 +1,217 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ padding: 80px;
+ color: hsl(228, 12%, 44%);
+ /* color: white; */
+ max-width: 1440px;
+font-family: 'Inter', sans-serif;
+}
+header {
+ display: flex;
+ justify-content: space-between;
+}
+
+h3 {
+ color: black;
+ font-weight: 700;
+ /* color: white; */
+}
+header p {
+ font-size: small;
+ font-weight: 800;
+}
+.dark{
+ width: 20px;
+ height: 20px;
+}
+.light {
+ width: 20px;
+ height: 20px;
+ color: aliceblue;
+ background-color: red;
+}
+.hidden {
+ display: none;
+}
+.button {
+ display: flex;
+ background-color: hsl(230, 22%, 74%);
+ width: 50px;
+ padding: 2px;
+ height: 25px;
+ border-radius: 10px;
+ justify-content: space-between;
+ /* padding: 10px; */
+}
+.button1 {
+ display: flex;
+ gap: 10px;
+}
+.grad{
+ background-image: linear-gradient( to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+
+}
+label {
+ font-weight: 700;
+ text-transform: capitalize;
+}
+section {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ /* background-color: red; */
+ padding-top:  20px;
+ column-gap: 20px;
+}
+.div {
+ border-top: 2px solid hsl(208, 92%, 53%);
+ height: 200px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ align-items: center;
+ padding: 10px;
+ background-color: hsl(227, 47%, 96%);
+ margin-bottom: 40px;
+ /* background-color: hsl(228, 28%, 20%); */
+}
+
+
+.redo{
+  border-top:transparent;
+}
+.dsec1c{
+  background-image: linear-gradient(to left, hsl(329, 70%, 58%), hsl(37, 97%, 70%));
+  width: 100%;
+  height: 2px;
+}
+
+.dsec1d {
+ border-top: 2px solid red;
+}
+.dsec1d p:last-child{
+  color: red;
+}
+.red{
+  color: red;
+}
+.green {
+  color: hsl(163, 72%, 41%);
+}
+h4{
+ margin-bottom: 10px;
+ font-size: larger;
+}
+h1 {
+ /* color: white; */
+ font-size: 300%;
+ margin-bottom: -15px;
+ font-weight: 700;
+ color: black;
+ /* color: white; */
+}
+
+
+
+
+.socials{
+  width: 15px;
+  margin-right: 5px;
+  margin-bottom: -3px;
+}
+.psec1a {
+ font-weight: 700;
+}
+.psec1b{
+ letter-spacing: 2px;
+ font-size: small;
+ 
+}
+.psec1c {
+ font-size: x-small;
+ font-weight: 700;
+ color: hsl(163, 72%, 41%);
+}
+.div2 {
+ /* border: 1px solid red; */
+ height: 100px;
+ padding: 16px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ background-color: hsl(227, 47%, 96%);
+ /* background-color: hsl(228, 28%, 20%) */
+}
+.div2 div{
+ display: flex;
+ justify-content: space-between;
+}
+.div2 p:last-child{
+ font-size: small;
+ font-weight: 700;
+ /* color: hsl(163, 72%, 41%); */
+ margin-top: 10px;
+}
+h2 {
+ color: black;
+ /* color: white; */
+}
+.darkmode{
+ background-color: hsl(230, 17%, 14%);
+ /* color: white; */
+}
+.divx{
+ background-color: hsl(228, 28%, 20%);
+}
+.black {
+ color: white;
+}
+
+/* mobile style */
+@media screen and (max-width: 800px) {
+  main {
+    position: relative;
+  }
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    h3 {
+      /* text-align: ; */
+      font-size: 160%;
+    }
+        section {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          padding-top: 20px;
+          column-gap: 20px;
+        }
+        .div2 {
+          margin-bottom: 40px;
+        }
+        .button1{
+          display: flex;
+          justify-content: space-between;
+          margin-top: 50px;
+          margin-bottom: 30px;
+        }
+        header::after{
+          content: " ";
+          width: 100%;
+          position: absolute;
+          top: 80px;
+          height: 2px;
+          background-color: hsl(230, 22%, 74%);
+          /* margin-bottom: -50px; */
+          /* margin-top: 100px; */
+        }
+        header p {
+          font-size: large;
+        }
+      
+      
+}
